@@ -24,12 +24,6 @@ You will need Node and Ionic and Bower installed.
   - install ionic with `npm install -g ionic`
   - install bower with `npm install -g bower`
 
-```bash
-bower install angular --save
-bower install bootstrap --save
-bower install jquery --save
-```
-
 1. Clone repo
 
     ```bash
@@ -41,22 +35,15 @@ bower install jquery --save
 
 3. Run `npm install`.
 
-4. Run the project with `ionic serve [http-port] [livereload-port]`. default port is 8100.
-  `ionic serve --lab`
-  $ ionic platform ios 
-  $ ionic platform android
-  before testing the apps you need to build them:
-  $ ionic build ios 
-  $ ionic build android
+4. Run the project:
+  + **on the web:** `ionic serve [http-port] [livereload-port]`. default port is 8100.
+  + **web, both android and ios:** `ionic serve --lab`
+  + **iOS emulator:** before testing the app you need to build it:
+    `ionic build ios`
+    `ionic run ios --livereload`
+    Uncheck "Connect Hardware Keyboard" in the iOS emulator for the keyboard to work correctly
+  + **Adroid emulator:** before testing the apps you need to build them:
+    `ionic build android`
+    `ionic run android
 
-  $ ionic emulate ios
-  $ ionic run android
-
-  test on device:
-  $ ionic run ios
-  $ ionic run android
-
-  // test on ios simulator with:
-  `ionic run ios --livereload`
-  Uncheck "Connect Hardware Keyboard"
 
