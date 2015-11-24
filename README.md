@@ -39,11 +39,11 @@ You will need Node and Ionic and Bower installed.
   + **on the web:** `ionic serve [http-port] [livereload-port]`. default port is 8100.
   + **web, both android and ios:** `ionic serve --lab`
   + **iOS emulator:** before testing the app you need to build it:
-    +`ionic build ios`
-    +`ionic run ios --livereload`
-    +Uncheck "Connect Hardware Keyboard" in the iOS emulator for the keyboard to work correctly
+    + `ionic build ios`
+    + `ionic run ios --livereload`
+    + Uncheck "Connect Hardware Keyboard" in the iOS emulator for the keyboard to work correctly
   + **Adroid emulator:** before testing the app you need to build it:
-    +`ionic build android`
-    +`ionic run android
+    + `ionic build android`
+    + `ionic run android
 
 
