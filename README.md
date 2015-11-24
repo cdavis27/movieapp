@@ -44,6 +44,6 @@ You will need Node and Ionic and Bower installed.
     + Uncheck "Connect Hardware Keyboard" in the iOS emulator for the keyboard to work correctly
   + **Adroid emulator:** before testing the app you need to build it:
     + `ionic build android`
-    + `ionic run android
+    + `ionic run android`
 
 
