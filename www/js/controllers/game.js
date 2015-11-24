@@ -1,8 +1,15 @@
 'use strict';
 
 angular.module('movieapp.controllers')
-.controller('GameCtrl', ['$scope', 
-function($scope) {
+.controller('GameCtrl', ['$scope', '$location', 
+function($scope, $location) {
 
+    $scope.goToScores = function () {
+        $location.path('/scores');
+    };
+
+    $scope.goToProfile = function () {
+        $location.path('/profile');
+    };
 
 }]);

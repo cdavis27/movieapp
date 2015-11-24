@@ -1,1 +1,87 @@
-/* Empty. Add your own CSS if you like */
+/*************************************/
+/*      Colors                      */
+/*************************************/
+
+.button-dark-blue {
+    background-color: #252F3A;
+    border-color: #252F3A !important;
+    color: #fff;
+}
+
+.button-dark-blue.activated {
+    background-color: #434A55;
+    border-color: #434A55 !important;
+    color: #fff;
+}
+
+.button-blue {
+    background-color: #00BEDE;
+    border-color: #00BEDE !important;
+    color: #fff;
+}
+
+.button-blue.activated {
+    background-color: #4EDBED;
+    border-color: #4EDBED !important;
+    color: #fff;
+}
+
+.button-red {
+    background-color: #F75B46;
+    border-color: #F75B46 !important;
+    color: #fff;
+}
+
+.button-red.activated {
+    background-color: #F97467;
+    border-color: #F97467 !important;
+    color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: #76868E;
+}
+
+.text-gray {
+  color: #76868E;
+}
+
+  /*background-color: #FAFAFA;*/
+  /*border-color: #EDF0F2;*/
+
+/*************************************/
+/*      Login                       */
+/*************************************/
+
+/*************************************/
+/*      Tutorial                     */
+/*************************************/
+
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 120px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+/*************************************/
+/*      Game                         */
+/*************************************/
+
+/*************************************/
+/*      Scores                       */
+/*************************************/
+
+/*************************************/
+/*      Profile                      */
+/*************************************/
