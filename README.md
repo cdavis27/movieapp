@@ -57,6 +57,6 @@ bower install jquery --save
   $ ionic run android
 
   // test on ios simulator with:
-  ionic run ios --livereload
+  `ionic run ios --livereload`
   Uncheck "Connect Hardware Keyboard"
 
