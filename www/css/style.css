@@ -6,40 +6,50 @@
     background-color: #1A232D;
     border-color: #1A232D !important;
     color: #fff;
+    background-image: none;
 }
 
 .button-dark-blue.activated {
-    background-color: #434A55;
-    border-color: #434A55 !important;
+    background-color: #28343F;
+    border-color: #28343F !important;
     color: #fff;
+    background-image: none;
 }
 
 .button-blue {
     background-color: #00BEDE;
     border-color: #00BEDE !important;
     color: #fff;
+    background-image: none;
 }
 
 .button-blue.activated {
     background-color: #4EDBED;
     border-color: #4EDBED !important;
     color: #fff;
+    background-image: none;
 }
 
 .button-red {
     background-color: #F75B46;
     border-color: #F75B46 !important;
     color: #fff;
+    background-image: none;
 }
 
 .button-red.activated {
     background-color: #F97467;
     border-color: #F97467 !important;
     color: #fff;
+    background-image: none;
 }
 
 .background-dark {
     background-color: #1F2934;
+}
+
+.sub-headerbar-dark {
+    background-color: #28343F;
 }
 
 .text-white {
@@ -50,8 +60,24 @@
   color: #76868E;
 }
 
+.text-blue {
+    color: #4EDBED;
+}
+
 .text-gray {
   color: #76868E;
+}
+
+.icon-trophy {
+    content: url(../img/trophy.png);
+    height: 23px;
+    margin-top: 5px;
+}
+
+.icon-person {
+    content: url(../img/person.png);
+    height: 23px;
+    margin-top: 5px;
 }
 
   /*background-color: #FAFAFA;*/
@@ -60,6 +86,38 @@
 /*************************************/
 /*      Login                       */
 /*************************************/
+.login-page {
+    top: 70px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.logo-type {
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facebook {
+    top: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.guest {
+    top: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.popcorn {
+    padding-top: 105px;
+}
 
 /*************************************/
 /*      Tutorial                     */
@@ -98,3 +156,24 @@
 /*************************************/
 /*      Profile                      */
 /*************************************/
+
+.profile {
+    height: 88px;
+}
+
+.progress-radial {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #00BEDE;
+
+}
+
+.progress-radial .overlay {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+}

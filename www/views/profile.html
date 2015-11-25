@@ -2,17 +2,20 @@
     <button class="button button-icon" ng-click="goBack()">
         <i class="icon ion-ios-arrow-back text-white"></i>
     </button>
-    <div class="h1 title text-white">Profile</div>
+    <div class="h1 title text-blue">Profile</div>
 </ion-header-bar>
 
-<ion-content>
-    <a class="item item-icon-left" href="#">
-        <i class="icon ion-person"></i>
+<ion-content class="sub-headerbar-dark">
+    <a class="item item-icon-left sub-headerbar-dark text-white">
+        <i class="icon ion-person text-white"></i>
         Tony Stark
         <span class="item-note">21</span>
     </a>
-    <button class="button button-full button-red" ng-click="showAlert()">
-        Redeem Rewards
-    </button>
-
+    <div class="progress-radial col col-center">
+        <div class="overlay">25%</div>
+    </div>
 </ion-content>
+
+<ion-footer-bar class="bar bar-footer button-red" ng-click="showAlert()">
+    <div class="title">Redeem Rewards</div>
+</ion-footer-bar>

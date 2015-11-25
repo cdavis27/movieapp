@@ -8,4 +8,8 @@ function($scope, $location) {
         $location.path('/game');
     };
 
+    $scope.goToScores = function () {
+        $location.path('/profile');
+    };
+
 }]);
