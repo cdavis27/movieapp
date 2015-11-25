@@ -4,7 +4,7 @@ angular.module('movieapp.controllers')
 .controller('LoginCtrl', ['$scope', '$location',
 function($scope, $location) {
       
-    $scope.goTutorial = function () {
+    $scope.goToTutorial = function () {
         $location.path('/tutorial');
     };
 

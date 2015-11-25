@@ -3,8 +3,8 @@
 /*************************************/
 
 .button-dark-blue {
-    background-color: #252F3A;
-    border-color: #252F3A !important;
+    background-color: #1A232D;
+    border-color: #1A232D !important;
     color: #fff;
 }
 
@@ -36,6 +36,10 @@
     background-color: #F97467;
     border-color: #F97467 !important;
     color: #fff;
+}
+
+.background-dark {
+    background-color: #1F2934;
 }
 
 .text-white {
@@ -81,6 +85,15 @@
 /*************************************/
 /*      Scores                       */
 /*************************************/
+
+.item {
+  border-color: #EDF0F2;
+}
+
+.wrapping-list .item-content, .wrapping-list .item {
+  overflow: initial;
+  white-space: initial;
+}
 
 /*************************************/
 /*      Profile                      */

@@ -12,4 +12,8 @@ function($scope, $location) {
         $location.path('/profile');
     };
 
+    $scope.goToGame = function () {
+        $location.path('/game');
+    };
+
 }]);

@@ -5,8 +5,8 @@ angular.module('movieapp.controllers')
 function($scope, $location, $ionicSlideBoxDelegate) {
     $scope.activeSlide = 0;
 
-     $scope.goToGame = function () {
-        $location.path('/game');
+    $scope.goToGame = function () {
+        $location.path('/gamepin');
     };
 
 

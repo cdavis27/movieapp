@@ -17,6 +17,10 @@ angular.module('movieapp', [
       templateUrl: 'views/tutorial.html',
       controller: 'TutorialCtrl'
     })
+     .when('/gamepin', {
+      templateUrl: 'views/gamepin.html',
+      controller: 'GameCtrl'
+    })
     .when('/game', {
       templateUrl: 'views/game.html',
       controller: 'GameCtrl'
