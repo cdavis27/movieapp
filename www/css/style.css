@@ -162,18 +162,26 @@
 }
 
 .progress-radial {
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     border: 20px solid #00BEDE;
+    margin-left: 57px;
+    margin-top: 90px
 
 }
 
 .progress-radial .overlay {
-    border-radius: 50%;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 65px;
     text-align: center;
-    line-height: 60px;
-    font-size: 16px;
+    color: #fff;
+
+}
+
+.popcorn-text {
+    margin: 0;
+}
+
+.progress-text {
+    margin: 0;
 }

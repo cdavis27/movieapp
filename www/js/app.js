@@ -33,6 +33,10 @@ angular.module('movieapp', [
       templateUrl: 'views/scores.html',
       controller: 'ScoresCtrl'
     })
+    .when('/edit', {
+      templateUrl: 'views/edit-profile.html',
+      controller: 'EditCtrl'
+    })
     .otherwise({
       redirectTo: '/'
     });
