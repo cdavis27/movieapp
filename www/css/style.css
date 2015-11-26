@@ -10,8 +10,8 @@
 }
 
 .button-dark-blue.activated {
-    background-color: #28343F;
-    border-color: #28343F !important;
+    background-color: #252F39;
+    border-color: #252F39 !important;
     color: #fff;
     background-image: none;
 }
@@ -49,7 +49,7 @@
 }
 
 .sub-headerbar-dark {
-    background-color: #28343F;
+    background-color: #252F39;
 }
 
 .text-white {
@@ -165,7 +165,7 @@
     width: 260px;
     height: 260px;
     border-radius: 50%;
-    border: 20px solid #00BEDE;
+    border: 30px solid #00BEDE;
     margin-left: 57px;
     margin-top: 90px
 
