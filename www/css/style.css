@@ -185,3 +185,24 @@
 .progress-text {
     margin: 0;
 }
+
+.popup-buttons .button {
+    background-color: #F75B46;
+    border: #F75B46;
+    border-radius: 4px;
+}
+
+.popup-buttons .button.activated {
+    background-color: #F97467;
+    border-color: #F97467 !important;
+    border-radius: 4px;
+}
+
+.popup-body {
+  text-align: center;
+}
+
+.popup-container .popup {
+  border-radius: 4px;
+}
+
