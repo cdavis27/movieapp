@@ -45,7 +45,7 @@
 }
 
 .background-dark {
-    background-color: #1F2934;
+    background-color: #1F2934 !important;
 }
 
 .sub-headerbar-dark {
@@ -78,6 +78,11 @@
     content: url(../img/person.png);
     height: 23px;
     margin-top: 5px;
+}
+
+.slider-pager .slider-pager-page
+{
+    color: #fff;
 }
 
   /*background-color: #FAFAFA;*/
@@ -162,17 +167,15 @@
 }
 
 .progress-radial {
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    border: 30px solid #00BEDE;
-    margin-left: 57px;
-    margin-top: 90px
+    position: absolute;
+    margin-left: 68px;
+    margin-top: 85px
 
 }
 
-.progress-radial .overlay {
-    margin-top: 65px;
+.overlay {
+    position: absolute;
+    padding-top: 157px;
     text-align: center;
     color: #fff;
 

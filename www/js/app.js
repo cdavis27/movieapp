@@ -5,6 +5,7 @@ angular.module('movieapp.controllers', []);
 angular.module('movieapp', [
   'ngRoute',
   'ionic',
+  'angular-svg-round-progress',
   'movieapp.controllers'
 ])
 .config(function ($routeProvider) {

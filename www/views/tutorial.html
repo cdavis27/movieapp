@@ -1,21 +1,24 @@
 <ion-content scroll="false">
     <ion-slide-box on-slide-changed="slideHasChanged($index)" active-slide="activeSlide">
 
-        <ion-slide disable-scroll="false">
+        <ion-slide disable-scroll="false" class="background-dark">
+            <img class="full-image" src="../img/popcorn.png">
             <div>
-                <h1>Page 1</h1>
+                <h3 class="text-white">Join your theater</h3>
             </div>
         </ion-slide>
 
-        <ion-slide disable-scroll="false">
+        <ion-slide disable-scroll="false" class="background-dark">
+            <img class="full-image" src="../img/popcorn.png">
             <div>
-                <h1>Page 2</h1>
+                <h3 class="text-white">Play against friends</h3>
             </div>
         </ion-slide>
 
-        <ion-slide disable-scroll="false">
+        <ion-slide disable-scroll="false" class="background-dark">
+            <img class="full-image" src="../img/popcorn.png">
             <div>
-                <h1>Page 3</h1>
+                <h3 class="text-white">Win cool stuff!</h3>
             </div>
             <button class="button button-full button-red" ng-click="goToGame()">
                 Play!
