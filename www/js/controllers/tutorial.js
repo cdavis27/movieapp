@@ -9,5 +9,13 @@ function($scope, $location, $ionicSlideBoxDelegate) {
         $location.path('/gamepin');
     };
 
+    $scope.goToTutorial2 = function () {
+        $location.path('/tutorial-2');
+    };
+
+    $scope.goToTutorial3 = function () {
+        $location.path('/tutorial-3');
+    };
+
 
 }]);

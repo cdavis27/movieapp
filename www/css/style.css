@@ -132,8 +132,35 @@
   background-color: #fff;
   text-align: center;
 
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+}
+
+.tutorial-page {
+  padding-top: 120px;
+  color: #FFF;
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.tutorial-row {
+  height: 65%;
+}
+
+.tutorial-text {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tutorial-button {
+  color: #F75B46 !important;
+  font-weight: bold;
+}
+
+.tutorial-button.icon-right:before {
+  color: #F75B46;
+  padding-left: 0.5em;
 }
 
 /*************************************/
