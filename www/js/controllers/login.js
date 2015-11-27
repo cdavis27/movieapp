@@ -3,9 +3,9 @@
 angular.module('movieapp.controllers')
 .controller('LoginCtrl', ['$scope', '$location', '$ionicPopup',
 function($scope, $location, $ionicPopup) {
-      
+
     $scope.goToTutorial = function () {
-        $location.path('/tutorial');
+        $location.path('/tutorial-1');
     };
 
     $scope.showAlert = function() {

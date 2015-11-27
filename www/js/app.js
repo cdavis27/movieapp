@@ -14,8 +14,16 @@ angular.module('movieapp', [
       templateUrl: 'views/login.html',
       controller: 'LoginCtrl'
     })
-    .when('/tutorial', {
-      templateUrl: 'views/tutorial.html',
+    .when('/tutorial-1', {
+      templateUrl: 'views/tutorial1.html',
+      controller: 'TutorialCtrl'
+    })
+    .when('/tutorial-2', {
+      templateUrl: 'views/tutorial2.html',
+      controller: 'TutorialCtrl'
+    })
+    .when('/tutorial-3', {
+      templateUrl: 'views/tutorial3.html',
       controller: 'TutorialCtrl'
     })
      .when('/gamepin', {
