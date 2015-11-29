@@ -1,26 +1,44 @@
 'use strict';
 
 angular.module('movieapp.controllers')
-.controller('LoginCtrl', ['$scope', '$location', '$ionicPopup',
-function($scope, $location, $ionicPopup) {
+.controller('LoginCtrl', ['$scope', '$location', '$ionicPopup', 'UserService', 
+function($scope, $location, $ionicPopup, UserService) {
+
+    $scope.user = {
+        username: '',
+        score: 0,
+        points: 0
+    };
 
     $scope.goToTutorial = function () {
-        $location.path('/tutorial-1');
+        UserService.setUser($scope.user);
+        $location.path('/tutorial');
     };
 
     $scope.showAlert = function() {
-        var alert = $ionicPopup.prompt({
-            title: 'Choose a Username',
-            // template: 'Enter your secret password',
-            inputType: 'text',
-            inputPlaceholder: 'username'
-            }).then(function(res) {
-                console.log('Your password is', res);
-        });
-        // var alertPopup = $ionicPopup.alert({
-        //     title: 'Choose a username',
-        //     template: ''
-        // });
+        var myPopup = $ionicPopup.show({
+        template: '<input type="text" ng-model="user.username">',
+        title: 'Choose a username',
+        // subTitle: '',
+        scope: $scope,
+        buttons: [
+            { text: 'Cancel' },
+            { 
+                text: '<b>Play</b>',
+                type: 'button-positive',
+                onTap: function(e) {
+                    if (!$scope.user.username) {
+                        e.preventDefault();
+                    } else {
+                        $scope.goToTutorial();
+                        return $scope.user.name;
+                    }
+                }
+            }   
+        ]
+    });
     };
+
+
 
 }]);

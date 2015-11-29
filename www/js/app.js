@@ -1,12 +1,14 @@
 'use strict';
 
 angular.module('movieapp.controllers', []);
+angular.module('movieapp.services', []);
 
 angular.module('movieapp', [
   'ngRoute',
   'ionic',
   'angular-svg-round-progress',
-  'movieapp.controllers'
+  'movieapp.controllers',
+  'movieapp.services'
 ])
 .config(function ($routeProvider) {
   $routeProvider
@@ -14,8 +16,8 @@ angular.module('movieapp', [
       templateUrl: 'views/login.html',
       controller: 'LoginCtrl'
     })
-    .when('/tutorial-1', {
-      templateUrl: 'views/tutorial1.html',
+    .when('/tutorial', {
+      templateUrl: 'views/tutorial.html',
       controller: 'TutorialCtrl'
     })
     .when('/tutorial-2', {

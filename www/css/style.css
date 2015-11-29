@@ -3,15 +3,21 @@
 /*************************************/
 
 .button-dark-blue {
-    background-color: #1A232D;
-    border-color: #1A232D !important;
+    background-color: #18212B;
+    /*border-color: #18212B !important;*/
     color: #fff;
     background-image: none;
 }
 
+.dark-border {
+    border-bottom: 1px solid #2D404F;
+}
+
+
+
 .button-dark-blue.activated {
-    background-color: #252F39;
-    border-color: #252F39 !important;
+    background-color: #242F3A;
+    border-color: #242F3A !important;
     color: #fff;
     background-image: none;
 }
@@ -45,15 +51,17 @@
 }
 
 .background-dark {
-    background-color: #1F2934 !important;
+    background-color: #18212B !important;
 }
 
 .sub-headerbar-dark {
-    background-color: #252F39;
+    background-color: #242F3A;
+    border-bottom: 2px solid #18212B;
+    background-image: none;
 }
 
 .text-white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .text-dark {
@@ -62,10 +70,6 @@
 
 .text-blue {
     color: #4EDBED;
-}
-
-.text-gray {
-  color: #76868E;
 }
 
 .icon-trophy {
@@ -196,12 +200,21 @@
 /*************************************/
 
 .item {
-  border-color: #EDF0F2;
+    border-color: #2D404F;
+    background-color: #252F39;
+}
+
+.item-divider {
+    background-color: #2D404F;
+    color: #F97467;
+    font-size: 14px;
+    border-color: #18212B;
+    /*border-bottom: 2px solid #18212B;*/
 }
 
 .wrapping-list .item-content, .wrapping-list .item {
-  overflow: initial;
-  white-space: initial;
+    overflow: initial;
+    white-space: initial;
 }
 
 /*************************************/
@@ -254,3 +267,22 @@
 .popup-container .popup {
   border-radius: 4px;
 }
+
+.profile-picture {
+  content: url(../img/ron.jpeg);
+  height: 60px;
+  border-radius: 50%;
+}
+
+.opponents-picture {
+  content: url(../img/ron.jpeg);
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*text color: #778594
+    border-bottom: 1px solid #1E2935
+    #18212b*/

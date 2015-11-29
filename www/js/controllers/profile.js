@@ -1,8 +1,10 @@
 'use strict';
 
 angular.module('movieapp.controllers')
-.controller('ProfileCtrl', ['$scope', '$location', '$ionicPopup',
-function($scope, $location, $ionicPopup) {
+.controller('ProfileCtrl', ['$scope', '$location', '$ionicPopup', 'UserService', 
+function($scope, $location, $ionicPopup, UserService) {
+
+    $scope.user = UserService.getUser();
 
     $scope.goBack = function () {
         $location.path('/game');

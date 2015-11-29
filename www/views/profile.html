@@ -1,15 +1,14 @@
-<ion-header-bar class="bar button-dark-blue">
+<ion-header-bar class="bar button-dark-blue dark-border">
     <button class="button button-icon" ng-click="goBack()">
         <i class="icon ion-ios-arrow-back text-white"></i>
     </button>
     <div class="h1 title text-blue">Profile</div>
 </ion-header-bar>
 
-<ion-content class="sub-headerbar-dark">
-    <a class="item item-icon-left sub-headerbar-dark text-white" ng-click="goToEdit()">
-        <i class="icon ion-person text-white"></i>
-        Tony Stark
-        <span class="item-note">21</span>
+<ion-content class="sub-headerbar-dark" scroll="false">
+    <a class="item sub-headerbar-dark text-white" ng-click="goToEdit()">
+        <i class="profile-picture"></i>
+        <h2 class="text-white">{{user.username}}</h2>
     </a>
    <div class="overlay col col-center">
         <h4 class="text-white progress-text">recieve free</h4> 
