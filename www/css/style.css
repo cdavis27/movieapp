@@ -217,6 +217,11 @@
     white-space: initial;
 }
 
+.user-text {
+    margin-top: -46px !important;
+    margin-left: 77px !important;
+}
+
 /*************************************/
 /*      Profile                      */
 /*************************************/

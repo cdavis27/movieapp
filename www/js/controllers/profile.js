@@ -16,8 +16,8 @@ function($scope, $location, $ionicPopup, UserService) {
 
     $scope.showAlert = function() {
         var alertPopup = $ionicPopup.alert({
-            title: 'Redeem',
-            template: 'Show this code to receive a small popcorn \n 809234'
+            title: 'Show this code to receive a small popcorn',
+            template: '809234'
         });
     };
 

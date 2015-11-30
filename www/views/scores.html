@@ -9,17 +9,19 @@
     <div class="list">
         <a class="item" ng-click="goToScores()">
             <i class="profile-picture"></i>
-            {{ user.username }}
+            <!-- {{ user.username }} -->
+            <h2 class="user-text text-white">{{ user.username }}</h2>
+            <!-- <span class="item-note">{{ user.score }}</span> -->
             <span class="item-note">{{ user.score }}</span>
         </a>
         <div class="item item-divider">
             LEADERBOARD
         </div>
             <ion-list>
-                <ion-item class="text-dark" ng-repeat="user in opponents">
+                <ion-item class="text-dark" ng-repeat="opponent in opponents | orderBy:'-score'">
                     <!-- <i class="icon opponents-picture"></i> -->
-                    {{ user.username }}
-                    <span class="item-note">{{ user.score}}</span>
+                    {{ opponent.username }}
+                    <span class="item-note">{{ opponent.score}}</span>
                 </ion-item>
             </ion-list>
     </div>
