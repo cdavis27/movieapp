@@ -6,8 +6,8 @@ function($scope, $location, $ionicPopup, UserService) {
 
     $scope.user = {
         username: '',
-        score: 0,
-        points: 0
+        score: 20,
+        points: 20
     };
 
     $scope.goToTutorial = function () {
@@ -19,7 +19,6 @@ function($scope, $location, $ionicPopup, UserService) {
         var myPopup = $ionicPopup.show({
         template: '<input type="text" ng-model="user.username">',
         title: 'Choose a username',
-        // subTitle: '',
         scope: $scope,
         buttons: [
             { text: 'Cancel' },
@@ -36,7 +35,7 @@ function($scope, $location, $ionicPopup, UserService) {
                 }
             }   
         ]
-    });
+        });
     };
 
 

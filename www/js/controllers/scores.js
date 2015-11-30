@@ -3,7 +3,6 @@
 angular.module('movieapp.controllers')
 .controller('ScoresCtrl', ['$scope', '$location', 'UserService',
 function($scope, $location, UserService) {
-
     $scope.user = UserService.getUser();
     $scope.opponents = [
         {

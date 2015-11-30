@@ -18,7 +18,7 @@
     <div class="progress-radial"
         round-progress
         max="max"
-        current="current"
+        current="user.points"
         color="#00BEDE"
         bgcolor="#eaeaea"
         radius="120"
@@ -30,7 +30,7 @@
     </div>
 
     <div>
-        <h3 class="text-center text-white progress-text">60/100</h3>
+        <h3 class="text-center text-white progress-text">{{ user.points + '/' + max }}</h3>
         <h5 class="text-center text-white progress-text">points</h5>
     </div>
 </ion-content>
