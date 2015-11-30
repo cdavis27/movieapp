@@ -35,8 +35,10 @@ function($scope, $location, UserService) {
             username: 'Steve Rogers',
             score: 3,
             picture: '../img/ron.jpeg)'
-        },
+        }
     ];
+
+    $scope.opponents.push($scope.user);
 
     $scope.goBack = function () {
         $location.path('/game');
