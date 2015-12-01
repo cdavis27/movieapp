@@ -9,10 +9,21 @@
 </ion-header-bar>
 <!-- <div class="bar bar-subheader sub-headerbar-dark"> -->
 
-</div>
-
 <ion-content has-header="true" has-subheader="true" has-footer="true" scroll="true">
-    <ion-scroll direction="xy" scrollbar-x="false" scrollbar-y="false">
-        <img src="../img/ispy-full.jpg"/>
+
+    <div id="toast"></div>
+
+    <ion-scroll direction="x" scrollbar-x="false" scrollbar-y="false">
+      <div class="game-screen">
+        <button class="ispy-button octopus" ng-click="addPoints('Octopus')"></button>
+        <button class="ispy-button triangle" ng-click="addPoints('Triangle')"></button>
+        <button class="ispy-button rib-cage" ng-click="addPoints('Rib Cage')"></button>
+        <button class="ispy-button clothes-pin" ng-click="addPoints('Clothes Pin')"></button>
+        <button class="ispy-button number-three" ng-click="addPoints('Number Three')"></button>
+        <button class="ispy-button dinosaur" ng-click="addPoints('Dinosaur')"></button>
+        <button class="ispy-button cheese" ng-click="addPoints('Cheese')"></button>
+        <button class="ispy-button thread" ng-click="addPoints('Thread')"></button>
+        <button class="ispy-button little-house" ng-click="addPoints('Little House')"></button>
+      </div>
     </ion-scroll>
 </ion-content>

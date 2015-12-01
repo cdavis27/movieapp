@@ -189,9 +189,91 @@
 /*************************************/
 
 .game-screen {
-  width: 100%;
-  height: 100%;
-  background-image: url("../img/ispy.png");
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/ispy-full.jpg");
+}
+
+#toast {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+  bottom: 150px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: none;
+}
+
+.ispy-button {
+  position: absolute;
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+.octopus {
+  top: 116px;
+  left: 220px;
+  width: 59px;
+  height: 67px;
+}
+
+.triangle {
+  left: 875px;
+  top: 216px;
+  width: 51px;
+  height: 45px;
+}
+
+.rib-cage {
+  left: 571px;
+  top: 348px;
+  width: 74px;
+  height: 55px;
+}
+
+.clothes-pin {
+  left: 221px;
+  top: 442px;
+  width: 149px;
+  height: 50px;
+}
+
+.number-three {
+  left: 384px;
+  top: 376px;
+  width: 42px;
+  height: 39px;
+}
+
+.dinosaur {
+  left: 712px;
+  top: 19px;
+  width: 148px;
+  height: 63px;
+}
+
+.cheese {
+  left: 20px;
+  top: 175px;
+  width: 78px;
+  height: 95px;
+}
+
+.thread {
+  left: 860px;
+  top: 121px;
+  width: 56px;
+  height: 91px;
+}
+
+.little-house {
+  left: 368px;
+  top: 117px;
+  width: 54px;
+  height: 46px;
 }
 
 /*************************************/

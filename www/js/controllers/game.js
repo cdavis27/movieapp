@@ -18,4 +18,27 @@ function($scope, $location, UserService) {
         $location.path('/game');
     };
 
+    $scope.addPoints = function(item) {
+      if($scope.user.items == null) {
+        $scope.user.items = [];
+      }
+
+      if($scope.user.items.indexOf(item) == -1) {
+        $scope.user.items.push(item);
+
+        $scope.user.points += 20;
+
+        if($scope.user.points > 100) {
+          $scope.user.points = 100;
+        }
+
+        var toast = document.getElementById("toast");
+        toast.innerHTML = 'You Found: '  + item;
+        toast.style.display = 'inline'
+        setTimeout(function() {
+          toast.style.display = 'none';
+        }, 2000);
+      }
+    };
+
 }]);
