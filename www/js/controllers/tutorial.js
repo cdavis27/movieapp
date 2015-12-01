@@ -6,7 +6,7 @@ function($scope, $location, $ionicSlideBoxDelegate) {
     $scope.activeSlide = 0;
 
     $scope.goToGame = function () {
-        $location.path('/gamepin');
+        $location.path('/game');
     };
 
     $scope.goToTutorial2 = function () {

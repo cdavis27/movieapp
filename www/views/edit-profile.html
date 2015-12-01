@@ -5,5 +5,18 @@
     <div class="h1 title text-blue">Edit Profile</div>
 </ion-header-bar>
 
-<ion-content>
+<ion-content class="background-dark">
+    <div class="row sub-headerbar-dark">
+        <div class="col">
+            <i class="profile-picture"></i>
+            <a class="text-blue edit-text">edit</a>
+        </div>
+        <div class="col col-75">
+            <ion-list>
+                <ion-item class="text-dark">{{ user.firstname }}</ion-item>
+                <ion-item class="text-dark">{{ user.username }}</ion-item>
+                <ion-item class="text-dark">{{ user.email }}</ion-item>     
+            </ion-list>
+        </div>
+    </div>
 </ion-content>

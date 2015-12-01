@@ -7,9 +7,24 @@
         <i class="icon icon-trophy"></i>
     </button>
 </ion-header-bar>
-<!-- <div class="bar bar-subheader sub-headerbar-dark"> -->
 
-<ion-content has-header="true" has-subheader="true" has-footer="true" scroll="true">
+<ion-content class="background-dark game-pin-page" ng-show="!hasPin">
+    <div class="row row-center game-pin-row">
+      <div class="col col-center">
+        <h2 class="text-white text-center">Enter Theater Pin</h2>
+        <h5 class="text-white text-center"> find pin on theater screen</h5>
+      </div>
+    </div>
+    <label class="item item-input">
+        <input type="text" placeholder="Theater Pin">
+    </label>
+     <button class="button button-full button-red" ng-click="goToGame()">
+        Submit
+    </button>
+
+</ion-content>
+
+<ion-content has-header="true" has-subheader="true" has-footer="true" scroll="true" ng-show="hasPin">
 
     <div id="toast"></div>
 
