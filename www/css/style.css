@@ -366,6 +366,20 @@
   padding-bottom: 10px;
 }
 
+.profile {
+  padding: 10px;
+  padding-top: 8px;
+
+}
+.profile-col {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-name {
+  padding-top: 15px;
+}
+
 .edit-text {
   text-align: center;
 }

@@ -6,9 +6,15 @@
 </ion-header-bar>
 
 <ion-content class="sub-headerbar-dark" scroll="false">
-    <a class="item sub-headerbar-dark text-white" ng-click="goToEdit()">
-        <i class="profile-picture"></i>
-        <h2 class="text-white">{{user.username}}</h2>
+    <a class="item sub-headerbar-dark text-white profile" ng-click="goToEdit()">
+        <div class="row">
+            <div class="col col-25 profile-col">
+                <i class="profile-picture"></i>
+            </div>
+            <div class="col">
+                <h2 class="text-white profile-name">Ron</h2>
+            </div>
+        </div>
     </a>
    <div class="overlay col col-center">
         <h4 class="text-white progress-text">recieve free</h4> 
