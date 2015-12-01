@@ -25,7 +25,7 @@ function($scope, $location, $ionicPopup, UserService) {
                 text: '<b>Redeem</b>',
                 type: 'button-positive',
                 onTap: function(e) {
-                    $scope.user.points = 15;
+                    $scope.user.points = 0;
                     UserService.setUser($scope.user);
                 }
             }   
