@@ -1,4 +1,4 @@
-<ion-header-bar class="bar button-red">
+<ion-header-bar class="bar button-dark-blue">
     <button class="button button-icon text-white" ng-click="goBack()">
         <i class="icon ion-ios-arrow-back"></i>
     </button>
@@ -8,12 +8,23 @@
 <ion-content class="sub-headerbar-dark">
     <div class="list">
         <a class="item" ng-click="goToScores()">
-            <i class="profile-picture"></i>
-            <!-- {{ user.username }} -->
-            <h2 class="user-text text-white">{{ user.username }}</h2>
-            <!-- <span class="item-note">{{ user.score }}</span> -->
-            <span class="item-note">{{ user.score }}</span>
+            <div class="row">
+                <div class="col col-25 profile-col">
+                    <i class="profile-picture"></i>
+                </div>
+                <div class="col">
+                    <h2 class="text-dark user-text">{{ user.username }}</h2>
+                </div>
+                <div class="col score-col">
+                    <h2 class="note ">{{ user.score }}</h2>
+                </div>
+            </div>
+
+         <!--    <i class="profile-picture"></i>
+            <h2 class="user-text text-white">Ron</h2>
+            <span>23</span> -->
         </a>
+
         <div class="item item-divider">
             LEADERBOARD
         </div>
