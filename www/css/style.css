@@ -1,7 +1,6 @@
 /*************************************/
 /*      General                      */
 /*************************************/
-
 .button-dark-blue {
     background-color: #18212B;
     /*border-color: #18212B !important;*/
@@ -47,13 +46,13 @@
     color: #fff;
     background-image: none;
 }
-
+/*
 .background-dark {
     background-color: #18212B !important;
 }
-
-.sub-headerbar-dark {
-    background-color: #242F3A;
+*/
+.background-dark {
+    background-color: #242F3A !important;
     border-bottom: 2px solid #18212B;
     background-image: none;
 }
@@ -68,6 +67,10 @@
 
 .text-blue {
     color: #4EDBED;
+}
+
+.text-red {
+    color: #F75B46;
 }
 
 .icon-trophy {
@@ -94,7 +97,7 @@
 /*      Login                       */
 /*************************************/
 .login-page {
-    top: 70px;
+    top: 50px;
 }
 
 .logo {
@@ -110,19 +113,19 @@
 }
 
 .facebook {
-    top: 100px;
-    margin-bottom: 0;
-    margin-top: 0;
+    top: 65px;
 }
 
 .guest {
-    top: 100px;
-    margin-bottom: 0;
-    margin-top: 0;
+    top: 65px;
+}
+
+.button-div {
+  margin: 10px;
 }
 
 .popcorn {
-    padding-top: 105px;
+    padding-top: 73px;
 }
 
 /*************************************/
@@ -167,6 +170,10 @@
 .tutorial-button.icon-right:before {
   color: #F75B46;
   padding-left: 0.5em;
+}
+
+.button-play {
+    margin-top: 90px !important;
 }
 
 /*************************************/
@@ -324,7 +331,7 @@
 .progress-radial {
     position: absolute;
     margin-left: 68px;
-    margin-top: 85px
+    margin-top: 65px
 
 }
 
@@ -342,6 +349,7 @@
 
 .progress-text {
     margin: 0;
+    font-weight: 500;
 }
 
 .popup-buttons .button {
