@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('movieapp.controllers')
-.controller('GameCtrl', ['$scope', '$location', 'UserService', 
+.controller('GameCtrl', ['$scope', '$location', 'UserService',
 function($scope, $location, UserService) {
 
     $scope.user = UserService.getUser();
@@ -29,6 +29,7 @@ function($scope, $location, UserService) {
         $scope.user.items.push(item);
 
         $scope.user.points += 20;
+        $scope.user.score += 20;
 
         if($scope.user.points > 100) {
           $scope.user.points = 100;
