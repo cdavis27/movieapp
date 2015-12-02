@@ -204,7 +204,7 @@
   color: #FFFFFF;
   border-radius: 10px;
   padding: 10px;
-  bottom: 150px;
+  bottom: 25px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -404,4 +404,3 @@
 .edit-text {
     text-align: center;
 }
-
