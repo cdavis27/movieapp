@@ -6,7 +6,7 @@
 </ion-header-bar>
 
 <ion-content class="background-dark" scroll="false">
-    <a class="item text-white profile" ng-click="goToEdit()">
+    <div class="item text-white profile">
         <div class="row">
             <div class="col col-25 profile-col">
                 <i class="profile-picture"></i>
@@ -14,8 +14,12 @@
             <div class="col">
                 <h2 class="text-white profile-name">{{ user.username }}</h2>
             </div>
+            <div class="col col-20">
+              <button class="button button-clear icon ion-edit"
+                ng-click="goToEdit()"></button>
+            </div>
         </div>
-    </a>
+    </div>
    <div class="overlay col col-center">
         <h4 class="text-white progress-text">recieve free</h4>
         <h2 class="text-red popcorn-text">POPCORN</h2>
