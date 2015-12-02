@@ -1,12 +1,12 @@
 'use strict';
 
 angular.module('movieapp.controllers')
-.controller('LoginCtrl', ['$scope', '$location', '$ionicPopup', 'UserService', 
+.controller('LoginCtrl', ['$scope', '$location', '$ionicPopup', 'UserService',
 function($scope, $location, $ionicPopup, UserService) {
 
     $scope.user = {
         username: '',
-        score: 20,
+        score: 0,
         points: 20
     };
 
