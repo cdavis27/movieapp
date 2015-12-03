@@ -8,19 +8,21 @@
     </button>
 </ion-header-bar>
 
-<ion-content class="background-dark game-pin-page" ng-show="!user.pin">
+<ion-content class="button-dark-blue game-pin-page" ng-show="!user.pin">
     <div class="row row-center game-pin-row">
       <div class="col col-center">
-        <h2 class="text-white text-center">Enter Theater Pin</h2>
+        <h2 class="text-blue text-center">Enter Theater Pin</h2>
         <h5 class="text-white text-center"> find pin on movie screen</h5>
       </div>
     </div>
-    <label class="item item-input">
-        <input type="text" placeholder="Theater Pin">
+    <label class="item item-input text-white">
+        <input class="text-dark" type="text" placeholder="Theater Pin">
     </label>
-     <button class="button button-full button-red" ng-click="goToGame()">
-        Submit
-    </button>
+    <div class="button-div">
+         <button class="button button-block button-red " ng-click="goToGame()">
+            Submit
+        </button>
+    </div>
 
 </ion-content>
 
