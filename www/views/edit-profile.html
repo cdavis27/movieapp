@@ -5,8 +5,8 @@
     <div class="h1 title text-white">Edit Profile</div>
 </ion-header-bar>
 
-<ion-content class="background-dark edit-profile-view">
-    <div class="row sub-headerbar-dark">
+<ion-content class="button-dark-blue edit-profile-view">
+    <div class="row background-dark edit-row">
         <div class="col col-center">
           <div class="row edit-profile-picture">
             <i class="profile-picture"></i>
@@ -15,15 +15,15 @@
             <a class="text-red edit-text">edit</a>
           </div>
         </div>
-        <div class="col col-75">
+        <div class="col col-75 edit-col">
             <ion-list>
-                <ion-item class="text-dark item-input">
+                <ion-item class="text-dark item-input item-edit">
                   <input type="text" placeholder="Name" ng-model="user.firstname">
                 </ion-item>
-                <ion-item class="text-dark item-input">
+                <ion-item class="text-dark item-input item-edit">
                   <input type="text" placeholder="Username" ng-model="user.username">
                 </ion-item>
-                <ion-item class="text-dark item-input">
+                <ion-item class="text-dark item-input item-last">
                   <input type="text" placeholder="Email" ng-model="user.email">
                 </ion-item>
             </ion-list>
