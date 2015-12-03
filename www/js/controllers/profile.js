@@ -35,6 +35,10 @@ function($scope, $location, $ionicPopup, UserService) {
 
     $scope.getPoints = function() {
         return $scope.user.points;
-    }
+    };
+
+    $scope.hasEnoughPoints = function() {
+      return $scope.user.points >= 100;
+    };
 
 }]);
