@@ -31,7 +31,7 @@ function($scope, $location, UserService) {
             picture: '../img/ron.jpeg)'
         },
         {
-            username: 'Katniss Everdean',
+            username: 'Katniss Everdeen',
             score: 3,
             picture: '../img/ron.jpeg)'
         }
