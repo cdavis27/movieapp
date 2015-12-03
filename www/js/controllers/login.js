@@ -9,7 +9,8 @@ function($scope, $location, $ionicPopup, UserService) {
         firstname: 'Ron Weasley',
         email: 'ron.weasley@hogwarts.com',
         score: 0,
-        points: 20
+        points: 0, 
+        pin: false
     };
 
     $scope.goToTutorial = function () {

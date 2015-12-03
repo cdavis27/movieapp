@@ -5,7 +5,6 @@ angular.module('movieapp.controllers')
 function($scope, $location, UserService) {
 
     $scope.user = UserService.getUser();
-    $scope.user.pin = false;
 
     $scope.goToScores = function () {
         $location.path('/scores');
@@ -18,6 +17,7 @@ function($scope, $location, UserService) {
     $scope.goToGame = function () {
         $scope.user.pin = true;
         UserService.setUser($scope.user);
+        // print $scope.user
     };
 
     $scope.addPoints = function(item) {
