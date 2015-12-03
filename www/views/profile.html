@@ -45,7 +45,7 @@
     </div>
     <div class="rewards-button-div">
       <button class="button button-block button-red" type="text"
-        ng-disabled="{{user.points != 100}}" ng-click="showAlert()">
+        ng-disabled="!hasEnoughPoints()" ng-click="showAlert()">
         Redeem Rewards
       </button>
     </div>

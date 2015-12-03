@@ -6,6 +6,8 @@ function($scope, $location, $ionicPopup, UserService) {
 
     $scope.user = {
         username: '',
+        firstname: 'Ron Weasley',
+        email: 'ron.weasley@hogwarts.com',
         score: 0,
         points: 20
     };
@@ -22,7 +24,7 @@ function($scope, $location, $ionicPopup, UserService) {
         scope: $scope,
         buttons: [
             { text: 'Cancel' },
-            { 
+            {
                 text: '<b>Play</b>',
                 type: 'button-positive',
                 onTap: function(e) {
@@ -33,7 +35,7 @@ function($scope, $location, $ionicPopup, UserService) {
                         return $scope.user.name;
                     }
                 }
-            }   
+            }
         ]
         });
     };

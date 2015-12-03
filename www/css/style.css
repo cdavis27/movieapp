@@ -401,8 +401,19 @@
     padding-top: 15px;
 }
 
+.edit-profile-picture {
+  margin-left: 7px
+}
+
+.edit-profile-view input {
+  color: #76868E;
+  font-weight: bold;
+}
+
 .edit-text {
     text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .rewards-button-div {
