@@ -46,4 +46,6 @@ You will need Node and Ionic and Bower installed.
     + `ionic build android`
     + `ionic run android`
 
-  Theater and Popcorn icon from [Cinema Tools](https://www.iconfinder.com/iconsets/cinema-tools) by Spreadrr Creations.
+
+
+Theater and Popcorn icon from [Cinema Tools](https://www.iconfinder.com/iconsets/cinema-tools) by Spreadrr Creations.
