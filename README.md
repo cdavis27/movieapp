@@ -9,11 +9,11 @@ Movie App
   + js - All of the frontend js files (controllers, directies, services, and filters)
   + lib - files are install here by bower
   + views - All of the frontend HTML files
-  + index.html - The main HTML file of the app. 
+  + index.html - The main HTML file of the app.
 
 + **.bowerrc** - This is where you tell `bower` to install dependencies in a specific place (`wwww/lib`)
-+ **.gitignore** - Make sure that you have all packages handled by `npm` and `bower` included in here so you don't source control them. 
-+ **bower.json** - Used to keep track of which dependencies you've installed. This allows you to share this project with someone else so they can just clone and type `bower install`. If more dependences are added include command `--save` so they are added to this file. 
++ **.gitignore** - Make sure that you have all packages handled by `npm` and `bower` included in here so you don't source control them.
++ **bower.json** - Used to keep track of which dependencies you've installed. This allows you to share this project with someone else so they can just clone and type `bower install`. If more dependences are added include command `--save` so they are added to this file.
 + **package.json** - Similar to `bower.json`, except backend node modules are kept track here.
 
 
@@ -46,4 +46,4 @@ You will need Node and Ionic and Bower installed.
     + `ionic build android`
     + `ionic run android`
 
-
+  Theater and Popcorn icon from [Cinema Tools](https://www.iconfinder.com/iconsets/cinema-tools) by Spreadrr Creations.
