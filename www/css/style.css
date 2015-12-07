@@ -1,6 +1,10 @@
 /*************************************/
 /*      General                      */
 /*************************************/
+.background-white {
+  background-color: #fff;
+}
+
 .button-dark-blue {
     background-color: #18212B;
     /*border-color: #18212B !important;*/
@@ -112,12 +116,13 @@
 }
 
 .logo-type {
-    width: 170px;
+    width: 220px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .facebook {
+  background-color: #49659F;
     top: 65px;
 }
 
@@ -317,6 +322,12 @@
     font-size: 30px !important;
 }
 
+.profile-name {
+    margin-top: -5px !important;
+    font-size: 24px !important;
+}
+
+
 .note {
     float: right;
     color: #aaa;
@@ -434,7 +445,7 @@
 .ion-edit {
   float: left;
     margin-left: 48px;
-    margin-top: 13px;
+    margin-top: 17px;
 }
 
 .edit-row {
