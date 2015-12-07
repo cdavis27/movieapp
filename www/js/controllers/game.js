@@ -37,7 +37,7 @@ function($scope, $location, UserService) {
 
         var toast = document.getElementById("toast");
         toast.innerHTML = 'You Found: '  + item;
-        toast.style.display = 'inline'
+        toast.style.display = 'inline';
         setTimeout(function() {
           toast.style.display = 'none';
         }, 2000);
