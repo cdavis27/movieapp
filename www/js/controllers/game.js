@@ -46,4 +46,8 @@ function($scope, $location, UserService) {
       UserService.setUser($scope.user);
     };
 
+    $scope.hasEnoughPoints = function() {
+      return $scope.user.points >= 100;
+    };
+
 }]);
