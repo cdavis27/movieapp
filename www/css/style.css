@@ -93,8 +93,8 @@
 
 .icon-reward {
     content: url(../img/popcorn-icon.png);
-    height: 27px;
-    margin-top: 5px;
+    height: 25px;
+    margin-top: 3px;
 }
 
 .icon-logo {
@@ -109,7 +109,7 @@
 }
 
 .row-no {
-  margin: 3px 0 0 0;
+  margin: 1px 0 0 0;
   padding: 0;
 }
 
