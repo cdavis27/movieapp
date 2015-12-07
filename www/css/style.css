@@ -1,6 +1,14 @@
 /*************************************/
 /*      General                      */
 /*************************************/
+.body {
+  font-family: Helvetica;
+}
+
+.title {
+  font-weight: bold !important;
+}
+
 .background-white {
   background-color: #fff;
 }
@@ -78,15 +86,31 @@
 }
 
 .icon-trophy {
+    content: url(../img/score.png);
+    height: 27px;
+    /*margin-bottom: 10px !important;*/
+}
+
+.icon-person {
     content: url(../img/trophy.png);
     height: 23px;
     margin-top: 5px;
 }
 
-.icon-person {
-    content: url(../img/person.png);
-    height: 23px;
-    margin-top: 5px;
+.icon-logo {
+    content: url(../img/moviespot-white.png);
+    height: 32px;
+    margin-top: 9px;
+    /*margin-right: 13px;*/
+}
+
+.score-header {
+  margin-top: -1.5px;
+}
+
+.row-no {
+  margin: 3px 0 0 0;
+  padding: 0;
 }
 
 .slider-pager .slider-pager-page
@@ -97,6 +121,14 @@
 .item.activated {
   background-color: #242F3A !important;
     border-color: #2D404F!important;
+}
+
+.header-title {
+  /*width: 200px !important;*/
+    left: 113px !important;
+    right: 140px !important;
+    /*widows: full;*/
+    overflow: visible !important;
 }
 
   /*background-color: #FAFAFA;*/
@@ -123,6 +155,13 @@
 
 .facebook {
   background-color: #49659F;
+  border-color: #49659F;
+    top: 65px;
+}
+
+.facebook.activated {
+  background-color: #587BBA;
+  border-color: #587BBA;
     top: 65px;
 }
 
@@ -306,7 +345,7 @@
 
 .item-divider {
     background-color: #2D404F;
-    color: #F97467;
+    /*color: #F97467;*/
     font-size: 14px;
     border-color: #18212B;
     /*border-bottom: 2px solid #18212B;*/
@@ -365,6 +404,7 @@
 
 .popcorn-text {
     margin: 0;
+    font-weight: bold;
 }
 
 .progress-text {
@@ -438,7 +478,6 @@
 }
 
 .rewards-button-div {
-    margin: 10px;
     padding-top: 50px;
 }
 

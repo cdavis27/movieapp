@@ -17,8 +17,8 @@ function($scope, $location, $ionicPopup, UserService) {
 
     $scope.showAlert = function() {
         var myPopup = $ionicPopup.show({
-        title: 'Show this code to receive a small popcorn',
-        subTitle: '890239',
+        title: '890239',
+        subTitle: 'Show this code to receive a small popcorn',
         scope: $scope,
         buttons: [
             { 

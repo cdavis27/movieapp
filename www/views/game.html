@@ -2,30 +2,30 @@
     <button class="button button-icon text-white" ng-click="goToProfile()">
         <i class="icon icon-person" ng-class="{shake: hasEnoughPoints()}"></i>
     </button>
-    <div class="h1 title text-white">Movie Spot</div>
+    <div class="h1 title text-white header-title">
+        <img class="icon-logo" src="../img/moviespot.png">
+    </div>
      <button class="button button-icon text-white" ng-click="goToScores()">
-        <div class="row">
-            <p>23</p>
+        <div class="row row-no">
+            <p class="score-header">{{ user.score }}</p>
             <i class="icon icon-trophy"></i>
         </div>
     </button>
 </ion-header-bar>
 
-<ion-content class="button-dark-blue game-pin-page" ng-show="!user.pin">
+<ion-content class="background-dark game-pin-page" ng-show="!user.pin">
     <div class="row row-center game-pin-row">
       <div class="col col-center">
         <h2 class="text-blue text-center">Enter Theater Pin</h2>
         <h5 class="text-white text-center"> find pin on movie screen</h5>
       </div>
     </div>
-    <label class="item item-input text-white">
+    <label class="item item-input text-white item-divider">
         <input class="text-white" type="text" placeholder="Theater Pin">
     </label>
-    <div class="button-div">
-         <button class="button button-block button-red " ng-click="goToGame()">
-            Submit
-        </button>
-    </div>
+     <button class="button button-block button-red " ng-click="goToGame()">
+        Submit
+    </button>
 
 </ion-content>
 
