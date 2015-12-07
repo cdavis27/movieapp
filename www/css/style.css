@@ -156,25 +156,21 @@
 .facebook {
   background-color: #49659F;
   border-color: #49659F;
-    top: 65px;
+    top: 80px;
 }
 
 .facebook.activated {
   background-color: #587BBA;
   border-color: #587BBA;
-    top: 65px;
+  /*top: 80px;*/
 }
 
 .guest {
-    top: 65px;
-}
-
-.button-div {
-  margin: 10px;
+  top: 80px;
 }
 
 .popcorn {
-    padding-top: 73px;
+    padding-top: 68px;
 }
 
 /*************************************/
