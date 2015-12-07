@@ -85,15 +85,15 @@
     color: #F75B46;
 }
 
-.icon-trophy {
+.icon-score {
     content: url(../img/score.png);
     height: 27px;
     /*margin-bottom: 10px !important;*/
 }
 
-.icon-person {
-    content: url(../img/trophy.png);
-    height: 23px;
+.icon-reward {
+    content: url(../img/popcorn-icon.png);
+    height: 27px;
     margin-top: 5px;
 }
 
